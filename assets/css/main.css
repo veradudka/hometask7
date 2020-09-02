@@ -1,0 +1,208 @@
+@font-face {
+    font-family:"Myriad Pro";
+    src: url("../fonts/myriad-pro/myriadttf.ttf");
+    font-weight: 400;
+}
+
+.body{
+    font-family: "Myriad Pro", sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.nav{
+    margin-top: 29px;
+    margin-bottom: 27px;
+}
+
+.navigation-bar{
+    text-decoration: none;
+    margin-right: 29px;
+    color: #6c6c6c;
+    font-size: 20px;
+
+
+}
+
+.navigation-image{
+    width: 44px;
+    height:44px;
+    background-color: #5094f2;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("../images/bq.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right:15px;
+    margin-left: 152px;
+}
+
+.prechu{
+    font-size:42px;
+    color: #000000;
+    letter-spacing: 0.42px;
+    margin-right: 409px;
+}
+
+.banner{
+    margin-top: 33px;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width:100%;
+}
+
+.iphone{
+    width: 345px;
+    height: 436px;
+    background-image: url("../images/iphone.png");
+    display:inline-block;
+    float:left;
+    margin-top: 37px;
+    margin-left: 177px;
+}
+
+.banner-info{
+    display:inline-block;
+    float:right;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 44.42px;
+    margin-right: 232px;
+    margin-top: 152px;
+}
+
+.banner-info-p{
+    font-size: 26px;
+    margin-bottom: 36px;
+}
+
+.button{
+    background-color: #5094f2;
+    border: none;
+    font-size: 22px;
+    color: #ffffff;
+    width: 172px;
+    height: 41px;
+}
+
+.button-image{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.carding{
+    display: inline-block;
+    width: 248px;
+    margin-left: 182px;
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+.icon{
+    height: 186px;
+    border-radius: 50%;
+    width: 186px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.cards .card-1 .icon{
+    background-color: #5094f2;
+}
+
+.cards .card-2 .icon{
+    background-color: #d94748;
+}
+
+.cards .card-3 .icon{
+    background-color: #ebbb11;
+}
+
+.icon-1{
+    background-image: url("../images/image_3.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.icon-2{
+    background-image: url("../images/image_2.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.icon-3{
+    background-image: url("../images/image_1.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.card-title{
+    color: #5094f2;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.card-paragraph{
+    margin-top: 11px;
+    color: #909090;
+    font-size: 14px;
+    float: left;
+}
+
+.last-section{
+    display:inline-block;
+    width: 451px;
+    margin-top: 149px;
+    margin-right: 187px;
+    float:right;
+}
+
+.shopping-cart{
+    display:inline-block;
+    width: 371px;
+    margin-left: 168px;
+}
+
+.shopping-title{
+    margin-top: 94px;
+    color: #6f7173;
+    font-size: 42px;
+}
+
+.shopping-img{
+    background-image: url("../images/cart.png");
+    height: 371px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.last-title{
+    color: #6f7173;
+    font-size: 26px;
+}
+
+.last-text{
+    margin-top: 35px;
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer{
+    margin-top: 85px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 15px;
+    color: #909090;
+    line-height: 36px;
+}
+
+.clearfix{
+    clear:both;
+}
